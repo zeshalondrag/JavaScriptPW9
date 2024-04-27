@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система управления автомобилем</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Система управления автомобилем</h1>
+    <div>
+        <label for="brand">Бренд:</label>
+        <input type="text" id="brand" placeholder="Название бренда">
+        <label for="model">Модель:</label>
+        <input type="text" id="model" placeholder="Название модели">
+        <label for="year">Год:</label>
+        <input type="number" id="year" placeholder="Год выпуска">
+        <label for="color">Цвет:</label>
+        <input type="text" id="color">
+        <button onclick="addCar()">Добавить автомобилиль</button>
+    </div>
+    <ul id="car-list"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
